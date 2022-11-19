@@ -101,29 +101,36 @@ nav {
     padding-left: 5%;
 }
 
-nav a {
-    /* font-size: 1.25rem; */
+button { 
     font-size: 90%;
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    width: 15%;
     margin: 1% 1%;
-    padding: 1%;
     background-color: white;
     color:black;
     border: 2px solid black;
-    width: 15%;
     text-align: center;
+    padding: 0;
 }
 
-nav a:hover {
+button a {
+    display:block;
+    height: 100%;
+    width: 100%;
+    padding: 10%;
+}
+
+button:hover {
+    cursor: pointer;
     background-color: gray;
     color:white;
     border: 2px solid black;
 }
 
-a.current-page {
+
+.current-page-button {
     background-color:black;
     color:white;
-    border: 2px solid white;
 }
 
 /* /////////////////////
@@ -156,21 +163,14 @@ a.current-page {
     padding: 0 3%;
 }
 
+.intro button {
+    width: 30%;
+}
+
 .intro h2 {
     font-family: "Rubik", Helvetica, sans-serif;
     font-weight: 400;
     font-size: 3rem;
-}
-
-.intro a {
-    font-family: "Montserrat", Arial, Helvetica, sans-serif;
-    margin: 1% 1% 1% 10%;
-    padding: 3% 1%;
-    background-color: white;
-    color:black;
-    border: 2px solid black;
-    width: 40%;
-    text-align: center;
 }
 
 .intro p {
@@ -184,18 +184,7 @@ a.current-page {
  * // PROJECTS SECTION///
  * //////////////////////
  * ////////////////////*/
-/* 
-.projects {
-    width: 90%;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    margin: 3% auto;
-}
 
-.projects::after {
-    flex: auto;
-} */
 
 .row {
     width: 90%;
@@ -247,7 +236,7 @@ footer p {
 }
 
 footer a {
-    font-size: 1.25rem;
+    /* font-size: 1.25rem;
     font-size: 90%;
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
     margin: 1% 1%;
@@ -256,7 +245,7 @@ footer a {
     color:black;
     border: 2px solid black;
     width: 15%;
-    text-align: center;
+    text-align: center; */
 }
 
 * {
