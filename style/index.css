@@ -241,6 +241,19 @@ footer p {
     margin-bottom: 1vh;
 }
 
+footer .social-media img {
+    height: 10vh;
+    opacity: 50%;
+}
+
+footer .social-media {
+    height: 10vh;
+    width: 50%;
+    margin: 3%;
+    display:flex;
+    justify-content: space-around;
+}
+
 
 /* //////////////////////
  * //////////////////////
@@ -293,6 +306,8 @@ footer p {
     footer button {
         width: 25%;
     }
+
+
 
 
 }
