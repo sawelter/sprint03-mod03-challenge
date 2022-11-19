@@ -102,7 +102,7 @@ nav {
 button { 
     font-size: 90%;
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
-    width: 15%;
+    width: 20%;
     margin: 1% 1%;
     background-color: white;
     color:black;
@@ -283,15 +283,12 @@ footer p {
         width: 50%;
     }
 
-
-    .intro, .row {
-        width: 97%;
-    }
-
     .row {
         display:flex;
         flex-flow: row wrap;
+        justify-content: space-around;
     }
+
 
     footer button {
         width: 25%;
@@ -333,23 +330,47 @@ footer p {
         flex-direction: column;
         align-items: center;
     }
-    
+
     .intro img {
+        width: 100%;
     }
 
+    
     .intro .text {
+        align-items:center;
         margin: 0;
         margin-top:3%;
     }
-    .project {
-        width: 45%;
+
+    .intro h2 {
+        font-size: 2rem;
     }
 
+    .intro .text button {
+        width: 90%;
+    }
 
+    .intro .text button a {
+        padding: 1vh;
+    }
 
+    .project {
+        width: 45%;
+        max-height: 30vh;
+    }
 
+    footer p {
+        font-size: 1rem;
+    }
 
-
+    footer button {
+        width: 81%;
+        padding: 0;
+        margin: 1vh 0 8vh 0;
+    }
+    footer button a {
+        padding:3%;
+    }
 }
 
 
