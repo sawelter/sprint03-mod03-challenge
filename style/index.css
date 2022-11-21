@@ -59,6 +59,7 @@
 
 a {
     text-decoration: none;
+    color:black;
 }
 a:visited {
     color: inherit;
@@ -241,17 +242,21 @@ footer p {
     margin-bottom: 1vh;
 }
 
-footer .social-media img {
-    height: 10vh;
-    opacity: 50%;
-}
+
 
 footer .social-media {
+    font-size: 3rem;
     height: 10vh;
     width: 50%;
     margin: 3%;
-    display:flex;
-    justify-content: space-around;
+}
+
+footer .social-media a {
+    padding: 0 3%;
+}
+
+footer .social-media a:hover {
+    color: gray;
 }
 
 
@@ -306,9 +311,6 @@ footer .social-media {
     footer button {
         width: 25%;
     }
-
-
-
 
 }
 
